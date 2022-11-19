@@ -1,0 +1,325 @@
+|
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Medical Centre</title>
+
+    <!-- bootstrap cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.3/css/bootstrap.min.css">
+
+    <!-- font awesome cdn here -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+
+    <!-- custom css link here -->
+    <link rel="stylesheet" href="Css/style.css">
+
+    <!-- custom login css link here -->
+    <link rel="stylesheet" href="Css/login.css">
+
+</head>
+
+<body>
+
+    <!-- header section starts  -->
+
+    <header class="bg-secondary">
+
+        <div class="container">      
+         <a href="#" class="logo"><span>S</span>UST<span>M</span>EDICAL</a>
+         
+            <nav class="nav justify-content-centre py-1">
+                <ul class="nav">
+                    <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#about">Services</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#Doctor">Doctor</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#patient">patient</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#Admin">Admin</a></li>
+                    <li class="nav-item"><a class="nav-link" href="Patient_Appointment.html">Appointment</a></li>
+                </ul>
+            </nav>
+
+             <div class="fas fa-bars"></div>
+
+        </div>
+
+
+    </header>
+
+    <!-- header section ends  -->
+
+
+    <!-- home section starts  -->
+
+    <section class="home" id="home">
+
+        <div class="container">
+
+            <div class="row min-vh-100 align-items-center text-center text-md-left">
+
+                <div class="col-md-6 pr-md-5 " data-aos="zoom-in">
+                    <img src="images/home-img.svg" width="100%" alt="">
+                </div>
+
+                <div class="col-md-6 pl-md-5 content" data-aos="fade-left">
+                    <h1><span>stay</span> safe, <span>stay</span> healthy.</h1>
+                    <h3>caring for you.</h3>
+                    <a href="#"><button class="button">learn more</button></a>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- home section ends -->
+
+
+
+    <!-- service section start  -->
+
+    <section class="about" id="about">
+
+        <div class="container">
+
+            <div class="row min-vh-100 align-items-center">
+
+                <div class="col-md-5 content" data-aos="fade-right">
+
+                    <div class="box">
+                        <h3> <i class="fas fa-ambulance"></i> Check-Up </h3>
+                        <p>Routine medical examinations & health checkups (blood pressure, RBS by glucometer etc.</p>
+                    </div>
+
+                    <div class="box">
+                        <h3> <i class="fas fa-procedures"></i> Treatment</h3>
+                        <p>Treatment of illness, injury, & other physical problems</p>
+                    </div>
+
+                    <div class="box">
+                        <h3> <i class="fas fa-stethoscope"></i>Vaccination</h3>
+                        <p>Vaccination :Hepatitis B and Ca cervix</p>
+                    </div>
+
+                    <div class="box">
+                        <h3> <i class="fas fa-stethoscope"></i>Service</h3>
+                        <p>Travel Medicine and Advice,Sports Injury Management,Minor Wound Management</p>
+                    </div>
+
+                </div>
+
+                <div class="col-md-7 d-none d-md-block" data-aos="fade-left">
+                    <img src="images/about.png" width="100%" height="100%" alt="">
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- service section ends -->
+
+
+
+    <!-- Doctor login starts here -->
+
+    <section class="Doctor patient_doctor_bg" id="Doctor">
+
+        <div class="container">
+
+            <div class="row min-vh-100 align-items-center text-center text-md-left">
+
+                <div class="col-md-6 pr-md-5 " data-aos="zoom-in">
+                    <img src="images/doctor.svg" width="100%"   alt="">
+                </div>
+
+                <div class="col-md-6 pl-md-5 content" data-aos="fade-left">
+                    <div class="center">
+                        <h1>Doctor Login</h1>
+                        <form method="post">
+                            <div class="txt_field">
+                                <input type="text" required>
+                                <span></span>
+                                <label>Username</label>
+                            </div>
+                            <div class="txt_field">
+                                <input type="password" required>
+                                <span></span>
+                                <label>Password</label>
+                            </div>
+                    
+                            <input type="submit" value="Login">
+                            <div class="signup_link">
+                                Forgot Password?
+                                 <a href="#">Recover Password</a><br>
+                        
+                                Not a member? <a href="registration_doctor.html">Register</a>
+                            </div>
+                        </form>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- Doctorlogin ends here -->
+
+
+
+
+    <!-- patient login starts here -->
+
+    <section class="patient patient_doctor_bg" id="patient">
+
+        <div class="container">
+
+            <div class="row min-vh-100 align-items-center text-center text-md-left">
+
+                <div class="col-md-6 pr-md-5 " data-aos="zoom-in">
+                    <img src="images/patient3.jpg" width="100%" height="50%"  alt="">
+                </div>
+
+                <div class="col-md-6 pl-md-5 content" data-aos="fade-left">
+                    <div class="center">
+                        <h1>Patient Login</h1>
+                        <form method="post">
+                            <div class="txt_field">
+                                <input type="text" required>
+                                <span></span>
+                                <label>Username</label>
+                            </div>
+                            <div class="txt_field">
+                                <input type="password" required>
+                                <span></span>
+                                <label>Password</label>
+                            </div>
+                    
+                            <input type="submit" value="Login">
+                            <div class="signup_link">
+                                Forgot Password?
+                                 <a href="#">Recover Password</a><br>
+                                Not a member? <a href="registration_patient.html">Register</a>
+                            </div>
+                        </form>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- patient login ends here -->
+
+     <!-- Admin login starts here -->
+
+     <section class="Doctor patient_doctor_bg" id="Admin">
+
+        <div class="container">
+
+            <div class="row min-vh-100 align-items-center text-center text-md-left">
+
+                <div class="col-md-6 pr-md-5 " data-aos="zoom-in">
+                    <img src="images/doctor.svg" width="100%"   alt="">
+                </div>
+
+                <div class="col-md-6 pl-md-5 content" data-aos="fade-left">
+                    <div class="center">
+                        <h1>Admin Login</h1>
+                        <form method="post">
+                            <div class="txt_field">
+                                <input type="text" required>
+                                <span></span>
+                                <label>Username</label>
+                            </div>
+                            <div class="txt_field">
+                                <input type="password" required>
+                                <span></span>
+                                <label>Password</label>
+                            </div>
+                    
+                            <input type="submit" value="Login">
+                            <div class="signup_link">
+                                Forgot Password?
+                                 <a href="#">Recover Password</a><br>
+                        
+                                Not a member? <a href="admin_registration.html">Register</a>
+                            </div>
+                        </form>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- Admin login ends here -->
+
+
+    <!-- footer section starts  -->
+
+<section class="footer">
+
+    <div class="container">
+
+        <div class="row">
+
+            <div class="col-md-4" data-aos="fade-right">
+                <a href="#" class="logo"><span>S</span>UST<span>M</span>EDICAL</a>
+                <p>The Health Service Centre, SUST located near the central auditorium just opposite to the basket ball ground , offers free experienced general practitioner and emergency medical care services to all members of the University community: students (undergraduate and post graduate), teachers ,staffs and their families in a user-friendly efficient environment.</p>
+            </div>
+
+            <div class="col-md-4 text-center" data-aos="fade-up">
+                <h3>links</h3>
+                <a href="#">home</a>
+                <a href="#">services</a>
+                <a href="#">Doctor</a>
+                <a href="#">Patient</a>
+                <a href="contact.html">contact</a>
+            </div>
+
+            <div class="col-md-4 text-center" data-aos="fade-left">
+                <h3>share</h3>
+                <a href="https://www.sust.edu/offices/other-offices/14">facebook</a>
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+</section>
+
+<!-- footer section ends -->
+
+
+
+
+
+
+
+    <!-- jquery link here -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+
+    <!-- custom js file here -->
+    <link rel="stylesheet" href="Js/main.js">
+
+</body>
+
+</html>
