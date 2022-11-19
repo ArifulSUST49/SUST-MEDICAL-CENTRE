@@ -38,6 +38,4 @@ Doctor.findAll = function (result) {
         }
         });
         };
-
-        
 module.exports = Doctor;

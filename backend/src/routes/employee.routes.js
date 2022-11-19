@@ -8,4 +8,4 @@ router.post('/', employeeController.create);
 // Retrieve a single employee with id
 router.get('/:id', employeeController.findById);
 // Update a employee with id
-module.exports = router
+module.exports = router;

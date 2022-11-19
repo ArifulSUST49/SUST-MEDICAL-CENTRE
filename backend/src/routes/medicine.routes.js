@@ -8,3 +8,4 @@ router.post('/', medicineController.create);
 // Retrieve a single employee with id
 //router.get('/:id', medicineController.findById);
 // Update a employee with id
+module.exports = router;

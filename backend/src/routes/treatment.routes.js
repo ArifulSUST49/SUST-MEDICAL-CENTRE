@@ -9,4 +9,4 @@ router.post('/', treatmentController.create);
 //router.get('/:id', medicineController.findById);
 // Update a employee with id
 
-module.exports = router
+module.exports = router;

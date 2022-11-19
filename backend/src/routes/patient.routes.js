@@ -10,4 +10,4 @@ router.post('/', patientController.create);
 // Update a employee with id
 //update
 
-module.exports = router
+module.exports = router;

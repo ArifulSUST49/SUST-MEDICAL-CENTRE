@@ -19,8 +19,14 @@ app.get('/', (req, res) => {
 const userRoutes = require('./src/routes/user.routes')
 const medicineRoutes = require('./src/routes/medicine.routes')
 const doctorRoutes = require('./src/routes/doctor.routes')
+const appointmentRoutes = require('./src/routes/appointment.routes')
+const employeeRoutes = require('./src/routes/employee.routes')
+const medical_cardRoutes = require('./src/routes/medical_card.routes')
+const medicine_storeRoutes = require('./src/routes/medicine_store.routes')
+const patientRoutes = require('./src/routes/patient.routes')
+const prescriptionRoutes = require('./src/routes/prescription.routes')
+const treatmentRoutes= require('./src/routes/treatment.routes')
 // using as middleware
-//app.use('/api/v1/employees', employeeRoutes)
 app.use('/api/v1/users',userRoutes);
 app.use('/api/v1/users/add',userRoutes);
 app.use('/api/v1/medicine',medicineRoutes);

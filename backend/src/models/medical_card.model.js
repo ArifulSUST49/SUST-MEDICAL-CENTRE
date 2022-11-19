@@ -15,7 +15,7 @@ var Medical_card = function(medical_card){
   };
 
 Medical_card.findAll = function (result) {
-    dbConn.query("Select Medicine_Name,Medicine_Quantity,Medicine_Expire_Date from tbl_medicine_store ", function (err, res) {
+    dbConn.query("Select Patient_Name, Patient_Reg_No,Patient_Blood from tbl_medical_card ", function (err, res) {
     if(err) {
       console.log("error: ", err);
       result(err, null);

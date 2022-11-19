@@ -2,11 +2,11 @@
 const Medical_card = require('../models/medical_card.model');
 exports.findAll = function(req, res) {
     Medical_card.findAll(function(err, medical_card) {
-  console.log('medicali_card')
+  console.log('medical_card')
   if (err)
   res.send(err);
   console.log('res', medical_card);
-  res.send(Medical_card);
+  res.send(medical_card);
 });
 };
 

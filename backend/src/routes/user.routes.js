@@ -5,4 +5,4 @@ const userController =   require('../controllers/user');
 router.get('/', userController.findAll);
 router.post('/', userController.create);
 // Create a new employee
-module.exports = router
+module.exports = router;
